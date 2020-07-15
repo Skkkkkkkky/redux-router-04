@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#miaosha{
+	display: flex;
+	overflow: auto;
+	
+	li{
+		flex: 0 0 50%;
+		list-style: none;
+		width: 50%;
+		img{
+			width: 100%;
+		}
+	}
+}
